@@ -1,0 +1,138 @@
+
+
+* {
+    background-image: url('./assets/hacker.gif');
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 7%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    font-family: "Baskervville SC", serif;
+    border: none;
+    color: #ffffff;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #ffffff}
+    .text-area:focus {
+        outline: none;
+    }
+
+    .mensagem {
+        font-family: "Baskervville SC", serif;
+        background-image: url(./assets/cadeado.webp);
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 24px;
+        color: #ffffff;
+        margin-left: 350px;
+        margin-top: 18px;
+        position: fixed;
+    }
+    .mensagem:focus {
+        outline: none;
+    }
+
+    .botoes {
+        display: flex;
+        margin-top: 18px;
+    }
+
+    .btn-desencriptar {
+        background: #405345;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #f8f8f8;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        width: 328px;
+    }
+
+    .btn-desencriptar:hover {
+        background: #014403;
+        border: 2px solid #0A3871;
+        transition: 0.3s all;
+    }
+
+    .btn-encriptar {
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+    }
+
+    .btn-encriptar:hover {
+        background: #a5afb9;
+        border: 2px solid #0A3871;
+        transition: 0.3s all;
+    }
+
+    .btn-copiar {
+        background: #012704;
+        border: 1px solid #ffffff;
+        border-radius: 24px;
+        color: #ffffff;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 360px;
+        margin-top: 402px;
+        position: absolute;
+        width: 336px;
+    }
+
+    .btn-copiar:hover {
+        background: #000000;
+        border: 2px solid #0A3871;
+        transition: 0.3s all;
+    }
+
+    .informacao {
+        color: #495057;
+        font-size: 18px;
+    }
+
+    .informacao h6 {
+        background-color: #012704;
+        color: #f8f8f8;
+        font-size: 16px;
+
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2%;
+        margin-top: 15px;
+        background: #012704;
+        color: #b2beca;
+        height: 15px;
+    }
+    .rodape h6 {
+        font-size: 15px;
+    }
